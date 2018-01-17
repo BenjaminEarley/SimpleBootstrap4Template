@@ -1,0 +1,56 @@
+{
+  "name": "simple_bootstrap_template",
+  "version": "1.0.0",
+  "description": "Simple Bootstrap 4 template to get started",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenjaminEarley/SimpleBootstrap4Template.git"
+  },
+  "keywords": [
+    "template",
+    "bootstrap",
+    "boilerplate",
+    "bootstrap 4"
+  ],
+  "author": "Benjamin Earley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenjaminEarley/SimpleBootstrap4Template/issues"
+  },
+  "homepage": "https://github.com/BenjaminEarley/SimpleBootstrap4Template#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "css-loader": "^0.28.8",
+    "exports-loader": "^0.6.4",
+    "html-loader": "^0.5.4",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.10",
+    "precss": "^2.0.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
+  }
+}
